@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="player.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+        <div class="players" id="players">
+            <h2>Players</h2>
+            <h3>Search a KBFC player</h3>
+            <input type="text" placeholder="Enter Player Name" id="player">
+            <br>
+            <br>
+            <button onclick="player()">Search</button>
+        </div>
+        <script>
+            var p = document.getElementById("player").value;
+            if(p=="luna"||p=="Luna"||p=="LUNA"){
+                window.open('https://keralablastersfc.in/player/adrian-luna/')
+            }
+            if(p=="Dimitrios Diamantakos"||p=="DIMITRIOS DIAMANTAKOS"||P=="Dimitrios diamantakos"||p=="dimitrios diamantakos"||p=="dimi"){
+                window.open('https://keralablastersfc.in/player/dimitrios-diamantakos/')
+            }
+            if(p=="Rahul K P"||p=="Rahul  K P"||p=="RAHUL K P"||p=="rahul k p"){
+                window.open('https://keralablastersfc.in/player/rahul-kp/')
+            }
+        </script>
+    </div>
+</body>
+</html>

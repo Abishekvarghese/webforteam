@@ -1,0 +1,79 @@
+.head{
+    margin-top: 63vh;
+    text-align: center;
+    color: blue;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding: 10px;
+    text-shadow: 4px 4px 4px yellow;
+    font-size: xx-large;
+}
+.players {
+    font-size: xx-large;
+    margin-top: 45px;
+    text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px 2px blue;
+}
+.in {
+    text-align: center;
+}
+input{
+    font-size: x-large;
+    height: 70px;
+    background-color: transparent;
+    color: blue;
+    border: 2px blue solid;
+    border-radius: 25px;
+    box-shadow: 0 0 10px yellow;
+}
+::placeholder{
+    font-size: xx-large;
+    text-align: center;
+    color: blue;
+    font-family: Montserrat;
+    text-shadow: 2px 2px 2px yellow;
+}
+a{
+    color: yellow;
+    text-shadow: 2px 2px 2px blue;
+    text-decoration: none;
+    font-size: x-large;
+
+}
+body{
+    background-image: url("players.png");
+    background-size: cover;
+}
+button{
+    z-index: 10; 
+    background-color: rgb(31, 108, 235); 
+    font-family: Montserrat;
+    text-decoration: transparent; 
+    cursor: pointer; 
+    outline: none; 
+    box-shadow: 0 0 6px yellow; 
+    box-sizing: border-box;
+     color: rgb(241, 221, 34); 
+     text-decoration: none; 
+     white-space: nowrap; 
+     width: 100px;
+      height: 30px;
+       min-height: 0px;
+        min-width: 0px; 
+        max-height: none;
+         max-width: none; 
+         text-align: center;
+          line-height: 10px; 
+          letter-spacing: 5px;
+           font-weight: 700; 
+           font-size: 12px; 
+           border-color: transparent;
+            padding: 10px 20px 10px;
+             border-radius: 30px; 
+             transform-origin: 50% 50%;
+              opacity: 1; 
+              transform: translate(0px, 0px);
+               visibility: visible;
+               text-shadow: 2px 2px 2px blue;
+
+}

@@ -1,0 +1,182 @@
+body{
+    background-image: url("kbfc2 bg.png");
+    background-size: 100rem;
+    
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+li {
+    list-style-type: none;
+    margin-left: 9.6rem;
+    padding: 0px 10px 0px 10px;
+    background-color: blue;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.season{
+    font-size: xx-large;
+    margin-top: 40rem;
+    text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px 2px blue;
+}
+.year{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+li1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+img{
+    height: 300px;
+    width: 320px;
+}
+ol{
+    display: flex;
+}
+.navbar {
+    margin-top: 1px;
+    overflow: hidden;
+    background-color: blue;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 11rem;
+    font-size: x-large;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .scree{
+    width: 20px;
+    height: 50px;
+  }
+footer{
+    margin-top: 30vh;
+    text-align: center;
+    color: yellow;
+    text-shadow: 3px 3px 3px purple;
+    font-style: normal;
+    font-size: x-large;
+    font-family: system-ui, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media (width<750px){
+    body{
+        background-image: url("kbbg234.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .navbar a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 6px 8px;
+        margin-left: auto;
+        font-size: small;
+        text-decoration: none;
+      }
+      .navbar {
+        margin-top: 3vh;
+        overflow: hidden;
+        background-color: blue;
+        font-family: Arial;
+        margin-left: 3px;
+      }
+      .season {
+        margin-top: 25vh;
+        text-align: center;
+        color: blue;
+        font-family: "Arial Black", Gadget, sans-serif;
+        padding: 10px;
+        text-shadow: 4px 4px 4px yellow;
+        font-size: large;
+    }
+      input{
+        font-size: medium;
+        height: 30px;
+      }
+      ::placeholder{
+        font-size: medium;
+      }
+      footer{
+        font-size: medium;
+        margin-top: 10vh;
+      }
+      img{
+        height: 100px;
+        width: 150px;
+      }
+      ol {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 5vh;
+        
+    }
+}
